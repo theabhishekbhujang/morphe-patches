@@ -12,6 +12,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 *Alternatively, open Morphe Manager -> **Settings** -> **Patch Sources** -> **Add Source** -> Enter `theabhishekbhujang/morphe-patches`.*
 
+PS: All patches are developed mostly using AI tools in my free time so please expect bugs and kindly report them.
 ---
 
 ## 🩹 Available Patches
