@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.0...v1.4.1) (2026-08-18)
+
+### 🐛 Bug Fixes
+
+* use Pair overload for compatibleWith in Constants.kt ([9402645](https://github.com/theabhishekbhujang/morphe-patches/commit/9402645ead6ebc5d99bb30cd6c5c8479fb71636e))
+
 ## [1.4.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.3.0...v1.4.0) (2026-08-18)
 
 ### 🐛 Bug Fixes

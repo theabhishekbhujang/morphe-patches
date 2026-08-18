@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-18T19:01:37",
-  "description": "## [1.4.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.3.0...v1.4.0) (2026-08-18)\n\n### 🐛 Bug Fixes\n\n* use correct Compatibility constructor in Constants.kt ([29fa10b](https://github.com/theabhishekbhujang/morphe-patches/commit/29fa10b8119e28662dfd3688b4e913fd41cd1eaa))\n\n### ✨ New Features\n\n* add Real Harmonium patch (Remove Ads) ([bba94f7](https://github.com/theabhishekbhujang/morphe-patches/commit/bba94f740798700f4f15bfa4e0b656a888e185fd))",
-  "download_url": "https://github.com/theabhishekbhujang/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "created_at": "2026-08-18T19:04:06",
+  "description": "## [1.4.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.0...v1.4.1) (2026-08-18)\n\n### 🐛 Bug Fixes\n\n* use Pair overload for compatibleWith in Constants.kt ([9402645](https://github.com/theabhishekbhujang/morphe-patches/commit/9402645ead6ebc5d99bb30cd6c5c8479fb71636e))",
+  "download_url": "https://github.com/theabhishekbhujang/morphe-patches/releases/download/v1.4.1/patches-1.4.1.mpp",
   "signature_download_url": "",
-  "version": "1.4.0"
+  "version": "1.4.1"
 }
