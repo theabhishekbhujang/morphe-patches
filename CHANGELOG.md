@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.0.1...v1.1.0) (2026-08-18)
+
+### ✨ New Features
+
+* update patch bundle name to Abhishek Bhujang Patches ([fdf9e1a](https://github.com/theabhishekbhujang/morphe-patches/commit/fdf9e1a1a27e51dbc21ef1e270b7314e9ca01f2b))
+
 ## [1.0.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.0.0...v1.0.1) (2026-08-18)
 
 ### 🐛 Bug Fixes

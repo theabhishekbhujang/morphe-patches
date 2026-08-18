@@ -17,17 +17,19 @@ Add this patch source directly to Morphe Manager on your Android device:
 ## 🩹 Available Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
-<summary>📦 Rhythm Free (com.psslabs.rhythm)&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Rhythm Free&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
-**🎯 Target Package:** `com.psslabs.rhythm`  
-**🎯 Supported Versions:** `6.23` (and future versions)
+**🎯 Supported versions:**
 
-| 💊 Patch | 📜 Description | ⚙️ Default |
-| :--- | :--- | :---: |
-| **Unlock Pro** | Unlocks all 60+ Taals, Taal Variations, Pitch Scales, Tanpura voices, Swar Mandal intervals, and interactive Manjeera controls. Removes all banner/interstitial ads and side-loading store verification popups. | ✅ Enabled |
+| 6.23 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, and removes ads. |  |
 
 </details>
 
