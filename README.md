@@ -17,7 +17,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 ## 🩹 Available Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.2.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
 <summary>📦 Rhythm Free&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
