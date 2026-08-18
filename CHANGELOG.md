@@ -1,3 +1,13 @@
+## [1.4.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.3.0...v1.4.0) (2026-08-18)
+
+### 🐛 Bug Fixes
+
+* use correct Compatibility constructor in Constants.kt ([29fa10b](https://github.com/theabhishekbhujang/morphe-patches/commit/29fa10b8119e28662dfd3688b4e913fd41cd1eaa))
+
+### ✨ New Features
+
+* add Real Harmonium patch (Remove Ads) ([bba94f7](https://github.com/theabhishekbhujang/morphe-patches/commit/bba94f740798700f4f15bfa4e0b656a888e185fd))
+
 ## [1.3.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.2.0...v1.3.0) (2026-08-18)
 
 ### ✨ New Features
