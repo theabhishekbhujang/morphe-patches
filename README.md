@@ -30,7 +30,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, and removes ads. |  |
+| [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, tuning, full instrument audio playback (Tabla, Manjeera, Tanpura, Swar Mandal), Pro UI branding & icons, removes all ads and promo cards. |  |
 
 </details>
 
