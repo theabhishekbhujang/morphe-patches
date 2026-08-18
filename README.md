@@ -1,47 +1,61 @@
-# 👋🧩 Morphe Patches template
+# 🧩 Morphe Patches by theabhishekbhujang
 
-Template repository for Morphe Patches.
+Custom high-performance patch bundle for Android applications built for **Morphe Manager** and **Morphe Desktop**.
 
-## ❓ About
+---
 
-Patches for apps I like.
+## 📲 Quick Installation
 
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+Add this patch source directly to Morphe Manager on your Android device:
 
-### How to use these patches
+👉 **[Add Source to Morphe Manager](https://morphe.software/add-source?github=theabhishekbhujang/morphe-patches)**
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=theabhishekbhujang/morphe-patches
+*Alternatively, open Morphe Manager -> **Settings** -> **Patch Sources** -> **Add Source** -> Enter `theabhishekbhujang/morphe-patches`.*
 
-## 🩹 Patches list
+---
+
+## 🩹 Available Patches
 
 <!-- PATCHES_START EXPANDED -->
 > **[v1.0.1](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
-<summary>📦 Rhythm Free&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Rhythm Free (com.psslabs.rhythm)&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
-**🎯 Supported versions:**
+**🎯 Target Package:** `com.psslabs.rhythm`  
+**🎯 Supported Versions:** `6.23` (and future versions)
 
-| 6.23 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, and removes ads. |  |
+| 💊 Patch | 📜 Description | ⚙️ Default |
+| :--- | :--- | :---: |
+| **Unlock Pro** | Unlocks all 60+ Taals, Taal Variations, Pitch Scales, Tanpura voices, Swar Mandal intervals, and interactive Manjeera controls. Removes all banner/interstitial ads and side-loading store verification popups. | ✅ Enabled |
 
 </details>
 
 <!-- PATCHES_END -->
 
-### 🛠️ Building locally
+---
 
-- Run `./gradlew buildAndroid`
-- The built patches .mpp file is found in `patches/build/libs/patches-*.mpp`
-- Patch the mpp file using [Morphe-Desktop](https://github.com/MorpheApp/morphe-desktop)
-  like any other patch bundle.
+## 🛠️ Building & Developing Locally
 
-See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for more information.
+### Prerequisites
+- JDK 17 or higher
+- Android SDK / Android Build Tools
+
+### Local Build Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/theabhishekbhujang/morphe-patches.git
+   cd morphe-patches
+   ```
+2. Build the Android `.mpp` patch package:
+   ```bash
+   ./gradlew buildAndroid
+   ```
+3. The generated patch bundle will be saved at:
+   `patches/build/libs/patches-*.mpp`
+
+---
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
