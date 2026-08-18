@@ -25,9 +25,8 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 **🎯 Supported versions:**
 
-| 6.23 |
-| :---: |
-
+| 6.23 | 
+[Rhythm](https://play.google.com/store/apps/details?id=com.psslabs.rhythm)
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, tuning, full instrument audio playback (Tabla, Manjeera, Tanpura, Swar Mandal), Pro UI branding & icons, removes all ads and promo cards. |  |
@@ -40,9 +39,8 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 **🎯 Supported versions:**
 
-| 29.0.1 |
-| :---: |
-
+| 29.0.1 | 
+[Harmonium](https://play.google.com/store/apps/details?id=harmonium.music.gameg.real.harmoniumfree)
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Remove Ads](#remove-ads) | Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status. |  |
