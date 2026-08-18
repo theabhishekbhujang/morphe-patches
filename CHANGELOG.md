@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.2.0...v1.3.0) (2026-08-18)
+
+### ✨ New Features
+
+* remove _More Taals? promo row injection ([b74fcdb](https://github.com/theabhishekbhujang/morphe-patches/commit/b74fcdb3e37cbf3b5e73c6299222cc000d5f85a3))
+
 ## [1.2.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.1.0...v1.2.0) (2026-08-18)
 
 ### 🐛 Bug Fixes
