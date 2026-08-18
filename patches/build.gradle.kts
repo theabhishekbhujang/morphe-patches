@@ -1,14 +1,13 @@
-group = "app.template"
+group = "com.theabhishekbhujang.morphe"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Abhishek Bhujang Patches"
+        description = "Pro feature unlocks and ad removal patches for Rhythm Free"
+        source = "https://github.com/theabhishekbhujang/morphe-patches"
+        author = "Abhishek Bhujang"
+        contact = "https://github.com/theabhishekbhujang"
+        website = "https://github.com/theabhishekbhujang/morphe-patches"
         license = "GPLv3"
     }
 }
