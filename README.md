@@ -1,6 +1,6 @@
 # 🧩 Morphe Patches by theabhishekbhujang
 
-Custom high-performance patch bundle for Android applications built for **Morphe Manager** and **Morphe Desktop**.
+Custom patch bundle for Android applications built for **Morphe Manager** and **Morphe Desktop**.
 
 ---
 
@@ -35,28 +35,6 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 <!-- PATCHES_END -->
 
----
-
-## 🛠️ Building & Developing Locally
-
-### Prerequisites
-- JDK 17 or higher
-- Android SDK / Android Build Tools
-
-### Local Build Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/theabhishekbhujang/morphe-patches.git
-   cd morphe-patches
-   ```
-2. Build the Android `.mpp` patch package:
-   ```bash
-   ./gradlew buildAndroid
-   ```
-3. The generated patch bundle will be saved at:
-   `patches/build/libs/patches-*.mpp`
-
----
 
 ## 📜 License
 
