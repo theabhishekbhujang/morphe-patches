@@ -2,7 +2,7 @@ group = "com.theabhishekbhujang.morphe"
 
 patches {
     about {
-        name = "Abhishek Bhujang Patches"
+        name = "Abhishek Bhujang's Patches"
         description = "Pro feature unlocks and ad removal patches for Rhythm Free"
         source = "https://github.com/theabhishekbhujang/morphe-patches"
         author = "Abhishek Bhujang"
