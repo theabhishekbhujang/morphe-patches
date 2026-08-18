@@ -1,3 +1,9 @@
+## [1.4.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.1...v1.4.2) (2026-08-18)
+
+### 🐛 Bug Fixes
+
+* update GitHub workflows to valid action versions and correct gradle tasks ([a69b3e3](https://github.com/theabhishekbhujang/morphe-patches/commit/a69b3e3d211c6048c956ab0cb6974f3cb4a921ef))
+
 ## [1.4.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.0...v1.4.1) (2026-08-18)
 
 ### 🐛 Bug Fixes
