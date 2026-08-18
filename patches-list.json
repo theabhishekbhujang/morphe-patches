@@ -4,7 +4,7 @@
   "patches": [
     {
       "name": "Unlock Pro",
-      "description": "Unlocks all Pro features, taals, variations, scales, and removes ads.",
+      "description": "Unlocks all Pro features, taals, variations, scales, tuning, full instrument audio playback (Tabla, Manjeera, Tanpura, Swar Mandal), Pro UI branding & icons, removes all ads and promo cards.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
@@ -25,6 +25,32 @@
             },
             {
               "version": "6.23",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "harmonium.music.gameg.real.harmoniumfree",
+          "name": "Real Harmonium",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#8B4513",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "29.0.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

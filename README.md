@@ -18,7 +18,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 ## 🩹 Available Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.3.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.3.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 Rhythm Free&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -31,6 +31,21 @@ Add this patch source directly to Morphe Manager on your Android device:
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, tuning, full instrument audio playback (Tabla, Manjeera, Tanpura, Swar Mandal), Pro UI branding & icons, removes all ads and promo cards. |  |
+
+</details>
+
+<details open>
+<summary>📦 Real Harmonium&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 29.0.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Remove Ads](#remove-ads) | Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status. |  |
 
 </details>
 
