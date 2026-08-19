@@ -13,7 +13,7 @@ val unlockProPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_RHYTHM)
 
     execute {
-        // 1. Unlock Taal.isPremium()
+        // 1. Force Taal.isPremium() to return false (so taals are not restricted as premium)
         Fingerprint(
             definingClass = "Lcom/psslabs/rhythm/model/Taal;",
             name = "isPremium",
@@ -26,7 +26,7 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 2. Unlock TaalVariation.isPremium()
+        // 2. Force TaalVariation.isPremium() to return false
         Fingerprint(
             definingClass = "Lcom/psslabs/rhythm/model/TaalVariation;",
             name = "isPremium",
@@ -39,7 +39,7 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 3. Unlock PickerView.h()
+        // 3. Unlock PickerView feature restrictions
         Fingerprint(
             definingClass = "Lcom/psslabs/rhythm/helper/PickerView;",
             name = "h",
@@ -52,7 +52,39 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 4. Bypass Store Check (m4.f.n())
+        // 4. Force m4.f constructor parameter `isPro` to true so all premium taals are loaded
+        // m4.f.q() checks `this.b` (isPro flag). When true, ALL taals are added to the list.
+        // Fingerprint constructor: Lm4/f;-><init>(Landroid/content/Context;ZLk4/z;Lm4/f$a;)V
+        Fingerprint(
+            definingClass = "Lm4/f;",
+            name = "<init>",
+            returnType = "V"
+        ).method.replaceInstructions(
+            0,
+            """
+                invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+                new-instance v0, Ljava/util/ArrayList;
+                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+                iput-object v0, p0, Lm4/f;->e:Ljava/util/ArrayList;
+                new-instance v0, Ljava/util/ArrayList;
+                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+                iput-object v0, p0, Lm4/f;->f:Ljava/util/ArrayList;
+                new-instance v0, Ljava/util/ArrayList;
+                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+                iput-object v0, p0, Lm4/f;->g:Ljava/util/ArrayList;
+                new-instance v0, Ljava/util/ArrayList;
+                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+                iput-object v0, p0, Lm4/f;->h:Ljava/util/ArrayList;
+                iput-object p1, p0, Lm4/f;->a:Landroid/content/Context;
+                const/4 p2, 0x0
+                iput-boolean p2, p0, Lm4/f;->b:Z
+                iput-object p3, p0, Lm4/f;->c:Lk4/z;
+                iput-object p4, p0, Lm4/f;->d:Lm4/f$a;
+                return-void
+            """
+        )
+
+        // 5. Bypass Store Check (m4.f.n())
         Fingerprint(
             definingClass = "Lm4/f;",
             name = "n",
@@ -65,7 +97,7 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 5. Disable Banner Ads (k4.d.f())
+        // 6. Disable Banner Ads (k4.d.f())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "f",
@@ -77,7 +109,7 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 6. Disable Interstitial Ads (k4.d.g())
+        // 7. Disable Interstitial Ads (k4.d.g())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "g",
