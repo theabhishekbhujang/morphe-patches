@@ -1,3 +1,13 @@
+## [1.5.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.0...v1.5.1) (2026-08-19)
+
+### 🐛 Bug Fixes
+
+* **ci:** update setup-java to v5, node to 22 and trigger clean build ([6e850a7](https://github.com/theabhishekbhujang/morphe-patches/commit/6e850a7fd973fe0ead6a560d8519eb16060ed6c9))
+* escape dollar sign in Smali type descriptor ([b3a0936](https://github.com/theabhishekbhujang/morphe-patches/commit/b3a0936e2b4b1cd0b3db57580ebd420afb5b32db))
+* **rhythm:** fix invalid register usage in m4.f constructor patch ([8bd98ef](https://github.com/theabhishekbhujang/morphe-patches/commit/8bd98ef61828639e9b19f23e48ccc6f8411e1a79))
+* **rhythm:** trigger release build workflow ([4f61a7e](https://github.com/theabhishekbhujang/morphe-patches/commit/4f61a7e7b0ca800936c93e74c7ec36b4687059f4))
+* **rhythm:** unlock pro features and taals in m4.f constructor ([6ea002e](https://github.com/theabhishekbhujang/morphe-patches/commit/6ea002e7de3a09354eb9d8cb5d40f9b2c357933b))
+
 ## [1.5.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.3...v1.5.0) (2026-08-19)
 
 ### ✨ New Features
