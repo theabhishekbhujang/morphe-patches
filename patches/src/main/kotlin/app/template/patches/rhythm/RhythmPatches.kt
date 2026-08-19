@@ -1,6 +1,7 @@
 package app.template.patches.rhythm
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_RHYTHM
@@ -39,33 +40,15 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 3. Force m4.f constructor to set isPro = true (b = false) so all taals & variations load
+        // 3. Force m4.f constructor to set isPro = true (b = false) at start of method
         Fingerprint(
             definingClass = "Lm4/f;",
             name = "<init>",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
-                invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->e:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->f:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->g:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->h:Ljava/util/ArrayList;
-                iput-object p1, p0, Lm4/f;->a:Landroid/content/Context;
-                const/4 v0, 0x0
-                iput-boolean v0, p0, Lm4/f;->b:Z
-                iput-object p3, p0, Lm4/f;->c:Lk4/z;
-                iput-object p4, p0, Lm4/f;->d:Lm4/f${'$'}a;
-                return-void
+                const/4 p2, 0x0
             """
         )
 
@@ -74,13 +57,10 @@ val unlockProPatch = bytecodePatch(
             definingClass = "Lcom/psslabs/rhythm/helper/PickerView;",
             name = "setIsEnabled",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 const/4 p1, 0x1
-                iput-boolean p1, p0, Lcom/psslabs/rhythm/helper/PickerView;->s:Z
-                invoke-direct {p0}, Lcom/psslabs/rhythm/helper/PickerView;->m()V
-                return-void
             """
         )
 
@@ -115,38 +95,26 @@ val unlockProPatch = bytecodePatch(
             definingClass = "Li4/b;",
             name = "T1",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 8. Disable StoreActivity launcher (StoreActivity.Z1())
-        Fingerprint(
-            definingClass = "Lcom/psslabs/rhythm/StoreActivity;",
-            name = "Z1",
-            returnType = "V"
-        ).method.replaceInstructions(
-            0,
-            """
-                return-void
-            """
-        )
-
-        // 9. Disable Get Premium button click (ListingActivity$b.onClick())
+        // 8. Disable Get Premium button click (ListingActivity$b.onClick())
         Fingerprint(
             definingClass = "Lcom/psslabs/rhythm/ListingActivity${'$'}b;",
             name = "onClick",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 10. Bypass Store Check (m4.f.n())
+        // 9. Bypass Store Check (m4.f.n())
         Fingerprint(
             definingClass = "Lm4/f;",
             name = "n",
@@ -159,72 +127,72 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 11. Disable Banner Ads (k4.d.f())
+        // 10. Disable Banner Ads (k4.d.f())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "f",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 12. Disable Interstitial Ads (k4.d.g())
+        // 11. Disable Interstitial Ads (k4.d.g())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "g",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 13. Disable Ad Thread Launch (k4.d.k())
+        // 12. Disable Ad Thread Launch (k4.d.k())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "k",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 14. Disable Interstitial Load (k4.d.m())
+        // 13. Disable Interstitial Load (k4.d.m())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "m",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 15. Disable Ad Activity Load (k4.d.p())
+        // 14. Disable Ad Activity Load (k4.d.p())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "p",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
             """
         )
 
-        // 16. Disable Banner Ad Load (k4.d.q())
+        // 15. Disable Banner Ad Load (k4.d.q())
         Fingerprint(
             definingClass = "Lk4/d;",
             name = "q",
             returnType = "V"
-        ).method.replaceInstructions(
+        ).method.addInstructions(
             0,
             """
                 return-void
