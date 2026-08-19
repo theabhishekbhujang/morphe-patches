@@ -1,6 +1,7 @@
 package app.template.patches.rhythm
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_RHYTHM
@@ -57,27 +58,10 @@ val unlockProPatch = bytecodePatch(
             definingClass = "Lm4/f;",
             name = "<init>",
             returnType = "V"
-        ).method.replaceInstructions(
-            0,
+        ).method.addInstructions(
+            14,
             """
-                invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->e:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->f:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->g:Ljava/util/ArrayList;
-                new-instance v0, Ljava/util/ArrayList;
-                invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-                iput-object v0, p0, Lm4/f;->h:Ljava/util/ArrayList;
-                iput-object p1, p0, Lm4/f;->a:Landroid/content/Context;
                 const/4 p2, 0x0
-                iput-boolean p2, p0, Lm4/f;->b:Z
-                iput-object p3, p0, Lm4/f;->c:Lk4/z;
-                return-void
             """
         )
 
