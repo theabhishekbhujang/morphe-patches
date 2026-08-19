@@ -77,7 +77,7 @@ val unlockProPatch = bytecodePatch(
                 const/4 v0, 0x0
                 iput-boolean v0, p0, Lm4/f;->b:Z
                 iput-object p3, p0, Lm4/f;->c:Lk4/z;
-                iput-object p4, p0, Lm4/f;->d:Lm4/f$a;
+                iput-object p4, p0, Lm4/f;->d:Lm4/f${'$'}a;
                 return-void
             """
         )
