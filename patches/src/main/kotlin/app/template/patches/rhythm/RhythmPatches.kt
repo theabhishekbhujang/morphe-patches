@@ -52,9 +52,7 @@ val unlockProPatch = bytecodePatch(
             """
         )
 
-        // 4. Force m4.f constructor parameter `isPro` to true so all premium taals are loaded
-        // m4.f.q() checks `this.b` (isPro flag). When true, ALL taals are added to the list.
-        // Fingerprint constructor: Lm4/f;-><init>(Landroid/content/Context;ZLk4/z;Lm4/f$a;)V
+        // 4. Force m4.f constructor parameter `isPro` to false so all taals are loaded into e list
         Fingerprint(
             definingClass = "Lm4/f;",
             name = "<init>",
@@ -76,8 +74,8 @@ val unlockProPatch = bytecodePatch(
                 invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
                 iput-object v0, p0, Lm4/f;->h:Ljava/util/ArrayList;
                 iput-object p1, p0, Lm4/f;->a:Landroid/content/Context;
-                const/4 p2, 0x0
-                iput-boolean p2, p0, Lm4/f;->b:Z
+                const/4 v0, 0x0
+                iput-boolean v0, p0, Lm4/f;->b:Z
                 iput-object p3, p0, Lm4/f;->c:Lk4/z;
                 iput-object p4, p0, Lm4/f;->d:Lm4/f$a;
                 return-void
