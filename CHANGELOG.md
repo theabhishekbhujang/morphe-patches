@@ -1,3 +1,9 @@
+## [1.5.3](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.2...v1.5.3) (2026-08-19)
+
+### 🐛 Bug Fixes
+
+* **rhythm:** use addInstructions to force isPro false without breaking constructor field initialization ([d6fd8f3](https://github.com/theabhishekbhujang/morphe-patches/commit/d6fd8f35c7b5766a6b8736eec92b016fd6c8efd6))
+
 ## [1.5.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.1...v1.5.2) (2026-08-19)
 
 ### 🐛 Bug Fixes
