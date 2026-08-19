@@ -1,3 +1,9 @@
+## [1.5.4-dev.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.4-dev.1...v1.5.4-dev.2) (2026-08-19)
+
+### 🐛 Bug Fixes
+
+* **rhythm:** use addInstructions to prevent IndexOutOfBoundsException during patch execution ([7431531](https://github.com/theabhishekbhujang/morphe-patches/commit/74315313f21d99c890ea29103f92781a079f33b4))
+
 ## [1.5.4-dev.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.3...v1.5.4-dev.1) (2026-08-19)
 
 ### 🐛 Bug Fixes
