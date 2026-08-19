@@ -59,6 +59,7 @@ val unlockProPatch = bytecodePatch(
             returnType = "V"
         ).method.replaceInstructions(
             0,
+            18,
             """
                 invoke-direct {p0}, Ljava/lang/Object;-><init>()V
                 new-instance v0, Ljava/util/ArrayList;
