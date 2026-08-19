@@ -1,3 +1,9 @@
+## [1.4.3](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.2...v1.4.3) (2026-08-19)
+
+### 🐛 Bug Fixes
+
+* **rhythm:** remove non-existent m4.f.f fingerprint ([2144e6e](https://github.com/theabhishekbhujang/morphe-patches/commit/2144e6eb7369e80c6eae4788a580f39e24392520))
+
 ## [1.4.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.1...v1.4.2) (2026-08-18)
 
 ### 🐛 Bug Fixes
