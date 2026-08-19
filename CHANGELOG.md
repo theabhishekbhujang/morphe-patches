@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.1...v1.5.2) (2026-08-19)
+
+### 🐛 Bug Fixes
+
+* **rhythm:** match 18 instruction count in replacement smali for m4.f constructor ([82a2445](https://github.com/theabhishekbhujang/morphe-patches/commit/82a2445f072ed136701c0f5148d47b8b1eff0030))
+* **rhythm:** specify instruction count in replaceInstructions to fix IndexOutOfBoundsException ([4d4dc23](https://github.com/theabhishekbhujang/morphe-patches/commit/4d4dc231317399af861f382d9082f4e7b88d72c0))
+
 ## [1.5.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.0...v1.5.1) (2026-08-19)
 
 ### 🐛 Bug Fixes
