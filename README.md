@@ -25,7 +25,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 **🎯 Supported versions:**
 
-| 29.0.1 |
+| harmony_29.0.1 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |

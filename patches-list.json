@@ -17,7 +17,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "29.0.1",
+              "version": "harmony_29.0.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
