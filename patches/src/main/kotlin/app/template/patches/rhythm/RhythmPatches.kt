@@ -88,18 +88,5 @@ val unlockProPatch = bytecodePatch(
                 return-void
             """
         )
-
-        // 7. Remove _More Taals? promo card injection (m4.f.f())
-        Fingerprint(
-            definingClass = "Lm4/f;",
-            name = "f",
-            returnType = "Ljava/util/ArrayList;"
-        ).method.replaceInstructions(
-            0,
-            """
-                const/4 v0, 0x0
-                return-object v0
-            """
-        )
     }
 }
