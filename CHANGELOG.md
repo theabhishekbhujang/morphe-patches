@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.3...v1.5.0) (2026-08-19)
+
+### ✨ New Features
+
+* **harmonium:** update supported version to harmony_29.0.1 ([c923c2f](https://github.com/theabhishekbhujang/morphe-patches/commit/c923c2f0c8b64043178b1fbcf305f542a621344a))
+
 ## [1.4.3](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.4.2...v1.4.3) (2026-08-19)
 
 ### 🐛 Bug Fixes
