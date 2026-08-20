@@ -1,3 +1,9 @@
+## [1.6.0-dev.1](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.4-dev.2...v1.6.0-dev.1) (2026-08-20)
+
+### ✨ New Features
+
+* **rhythm:** update unlock pro patch with complete bypasses and audio unlocks ([f3d886f](https://github.com/theabhishekbhujang/morphe-patches/commit/f3d886f1f0daafa6c6ccc564e8a15368876f4a1a))
+
 ## [1.5.4-dev.2](https://github.com/theabhishekbhujang/morphe-patches/compare/v1.5.4-dev.1...v1.5.4-dev.2) (2026-08-19)
 
 ### 🐛 Bug Fixes
