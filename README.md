@@ -18,7 +18,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 ## 🩹 Available Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.5.4-dev.2](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.5.4-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.6.0](https://github.com/theabhishekbhujang/morphe-patches/releases/tag/v1.6.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 harmonium.music.gameg.real.harmoniumfree&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -45,10 +45,9 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Unlock Pro](#unlock-pro) | Unlocks all Pro features, taals, variations, scales, Manjeera, Tanpuras, removes purchase banners and ads. |  |
+| [Unlock Pro](#unlock-pro) | Unlocks all Pro and Premium features, taals, variations, scales, Manjeera audio engine, and disables store alerts & ads. |  |
 
 </details>
-
 
 <!-- PATCHES_END -->
 
