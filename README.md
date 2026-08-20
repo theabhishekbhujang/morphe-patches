@@ -12,7 +12,7 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 *Alternatively, open Morphe Manager -> **Settings** -> **Patch Sources** -> **Add Source** -> Enter `theabhishekbhujang/morphe-patches`.*
 
-### PS: All patches are developed mostly using AI tools in my free time so please expect bugs and kindly report them.
+**PS: All patches are developed mostly using AI tools in my free time so please expect bugs and kindly report them.**
 ---
 
 ## 🩹 Available Patches
@@ -58,3 +58,6 @@ Add this patch source directly to Morphe Manager on your Android device:
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
 <br><br>
 If you are the developer, copyright holder, or otherwise have a valid reason to request removal of any patch from this repository, please [contact me](http://scr.im/abhishekey) and I will review the request and remove the relevant patch if appropriate.
+<br><br>
+⚠️ **Disclaimer:** These patches are created solely for **educational and research purposes** and to help me learn about Android app development, patching, and reverse engineering. I do not intend to harm, interfere with, or negatively impact the original developers or their applications. Please respect the rights and licenses of the original app developers and use these patches responsibly.
+
