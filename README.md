@@ -1,6 +1,6 @@
 # 🧩 Morphe Patches by theabhishekbhujang
 
-Custom patch bundle for Android applications built for **Morphe Manager** and **Morphe Desktop**.
+Custom patch bundle for Android applications built for **Morphe Manager**.
 
 ---
 
@@ -49,9 +49,12 @@ Add this patch source directly to Morphe Manager on your Android device:
 
 </details>
 
+
 <!-- PATCHES_END -->
 
 
 ## 📜 License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
+<br><br>
+If you are the developer, copyright holder, or otherwise have a valid reason to request removal of any patch from this repository, please [contact me](http://scr.im/abhishekey) and I will review the request and remove the relevant patch if appropriate.
